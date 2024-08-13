@@ -1,33 +1,47 @@
-<body>  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CAT PHOTO APP</title>
+</head>
+
+<body>
   <h2>CatPhotoApp</h2>
   <main>
     <h3>Cat Photos</h3>
     <!-- TO DO: link to cat photos -->
     <p>Click here to view more <a href="https://www.google.com/search?q=cat+photos&rlz=1C1GCEB_enBG1122BG1122&oq=cat+photos&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQABhDGIAEGIoFMgcIAhAAGIAEMgcIAxAAGIAEMgwIBBAAGBQYhwIYgAQyDAgFEAAYQxiABBiKBTIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDU3MDhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&safe=active" target="_blank">cat photos</a>.</p>
-    <a href ="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQpMd1VvFulMmL5eZzbby_LtusqbLCivDZA&s" alt="A curious orange cat looking up"></a>
+    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQpMd1VvFulMmL5eZzbby_LtusqbLCivDZA&s" alt="A curious orange cat looking up"></a>
     <h3>Cat lists</h3>
-    <p>Things cats <em>love</em></p>
-    <ul>
-      <li>cat nip</li>
-      <li>laser pointers</li>
-      <li>lasagna</li>
-    </ul>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfDurfsw43L2KXPuak1YXl6UhIUxuaZxVQAQ&ss" alt="Cat nip">
-    <p>Things cats <strong>hate</strong>:</p>
+    <div class="lists">
+      <p>Things cats <em>love</em></p>
+      <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+      </ul>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfDurfsw43L2KXPuak1YXl6UhIUxuaZxVQAQ&ss" alt="Cat nip">
+      <p>Things cats <strong>hate</strong>:</p>
       <ol>
         <li>flea treatment</li>
         <li>thunder</li>
         <li>other cats</li>
       </ol>
+    </div>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAdvtFDWEPlA0vXnqtJRM5vU5krwfP9tHHcg&s" alt="More cats">
     <form action="/submit-cat-photo">
       <label for"indoor"><input id="indoor" type="radio" name="indoor-outood"> Indoor</label><br>
       <label for="outoor"><input id="outoor" type="radio" name="indoor-outood"> Outdoor</label><br>
       <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving<br>
-      <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy<br>
-      <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic<br>
-      <input type="text" placeholder="Cat photo URL" required>
-      <button type="submit">Submit</button><br>
+        <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy<br>
+          <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic<br>
+            <input type="text" placeholder="Cat photo URL" required>
+            <button type="submit">Submit</button><br>
     </form>
-  </main
+  </main>
+  <footer>
+    <p><small>No Copyright - FM</small></p>
+  </footer>
 </body>
+
+</html>
